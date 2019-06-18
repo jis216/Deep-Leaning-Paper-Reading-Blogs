@@ -48,10 +48,12 @@ Transferring features and then fine-tuning them results in networks that general
 After testing on datasets for similar tasks, the researchers set up another experiment over two subsets A and B of different kinds of classes: they assigned man-made object classes and natural object classes in ImageNet to tasks A and B respectively.
 
 ![Figure 3.1: Results of the experiment on dissimilar datasets](images/Figure3.1.png)
+
 The plot in above Figure 3.1 shows that the accuracy of a baseA and baseB network (white circles) and BnA and AnB networks (orange hexagons). The upper of the two lines contains networks baseB and AnB trained toward the target task B (natural categories), which perform better than those trained toward the task A (man-made categories). Such difference may be due to task B having less classes or simply being easier to classify.
 
 ### 3. Compare to Random Weights
 ![Figure 3.2: Result of combination of random filters](images/Figure3.2.png)
+
 Since [Jarrett et al.][Jarrett] (2009) showed that when applying a smaller network to a smaller dataset,  Caltech-101, the combination of random convolutional filters, rectification, pooling and local normalization can work almost as well as learned features, this study also tests the performance of random filters for the first n layers for various choices of n. As what is shown in figure 3.2, when testing on a larger dataset, performance falls off quickly in layers 1 and 2, and then drops to near-change levels for layers 3 and above. 
 
 ![Figure 3.3: Random weight test result](images/Figure3.3.png)
