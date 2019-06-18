@@ -2,9 +2,9 @@
 
 Related paper: [Is Learning theNn-th Thing any Easier than Learning the First?][Paper Link] by Sebastian Thrun.
 
-It is shown that across the board, lifelong learning approaches generalize consistenly more accurately from less training data, by their ability to transfer knowledge across
+It is shown that across the board, lifelong learning approaches generalize consistently more accurately from less training data, by their ability to transfer knowledge across learning tasks.
 
 [Paper Link]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjUyNTI0OV19
+eyJoaXN0b3J5IjpbMTgzNDg1NjM4OV19
 -->
