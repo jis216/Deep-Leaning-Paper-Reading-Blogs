@@ -9,7 +9,7 @@
 <h3 id="general-or-specific">General or Specific?</h3>
 <p>When we are transferring features between networks trained for different tasks, we always need to consider whether these features are “general” enough for a successful transfer. In other words, we need to define a way to quantify the degree to which a particular layer is general or specific so that we could tell how well features would transfer from one task to another.</p>
 <h3 id="measures-generality-as-transfer-performance">Measures Generality as Transfer Performance</h3>
-<p><img src="images/images/Figure1.png" alt="Figure 1: Overview of the experimental treatments and controls"></p>
+<p><img src="images/Figure1.png" alt="Figure 1: Overview of the experimental treatments and controls"></p>
 <p>In the paper, Yosinski defines the degree of generality of a set of features learned on task A as the extent to which the features can be used for another task B. To measure this generality, the paper sets up an experiment that compares the performance of models on classification tasks A and B by constructing pairs of non-overlapping subsets of the ImageNet dataset.</p>
 <p>Specifically, A and B would each contains 500 classes from the 1000 ImageNet classes. They trained one eight-layer convolutional network on A and another on B, which are named as baseA and baseB correspondingly (represented as the top two rows of Figure 1). Then the first n layers (n from 1-7) are transferred from model trained for task A to model trained for task B. To be specific, these networks were named as:</p>
 <p>Transferred and frozen layers:</p>
