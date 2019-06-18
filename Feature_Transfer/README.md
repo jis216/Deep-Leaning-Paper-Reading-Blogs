@@ -1,7 +1,3 @@
----
-
-
----
 
 <h1 id="explore-feature-transfer-in-deep-neural-networks">Explore feature transfer in deep neural networks</h1>
 <p>Related paper: <a href="https://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf">How Transferable are Features in Deep Neural Networks</a> by Jason Yosinski et al.</p>
