@@ -7,7 +7,7 @@ It's common to transfer features from a model trained on a large dataset to a sm
 ### General or Specific?
 When we are transferring features between networks trained for different tasks, we always need to consider whether these features are "general" enough for a successful transfer. In other words, we need to define a way to quantify the degree to which a particular layer is general or specific so that we could tell how well features would transfer from one task to another.
  
-### Measures Generality as Transfer Performance
+### 1. Measures Generality as Transfer Performance on Similar Datasets
 
 ![Figure 1: Overview of the experimental treatments and controls](images/Figure1.png)
 
@@ -15,17 +15,17 @@ In the paper, Yosinski defines the degree of generality of a set of features lea
 
 Specifically, A and B would each contains 500 classes from the 1000 ImageNet classes. They trained one eight-layer convolutional network on A and another on B, which are named as baseA and baseB correspondingly (represented as the top two rows of Figure 1). Then the first n layers (n from 1-7) are transferred from model trained for task A to model trained for task B. To be specific, these networks were named as:
 
-Transferred and frozen layers:
+**Transferred and frozen layers:**
 - A *selffer* network BnB: the first n layers are copied from baseB and frozen. 
 - A *transfer* network AnB: the first n layers are copied from baseA and frozen.
 
-Transferred and fine-tuned layers:
+**Transferred and fine-tuned layers:**
 - A *selffer* network BnB<sup>+</sup>: the first n layers are copied from baseB and allowed to learn. 
 - A *transfer* network AnB<sup>+</sup>: the first n layers are copied from baseA and allowed to learn.
 
 The above process was also repeated in the other direction (task B to A). Further details of the training setup (learning rates, etc.) are given in the supplementary material, and code and parameter files to reproduce these experiments are available at http://yosinski.com/transfer
 
-![Figure 2: Results of the experiment](images/Figure2.png)
+![Figure 2: Results of the experiment on similar datasets](images/Figure2.png)
 
 We could see that in the scatter plot of Figure 2, there are groups of eight data points. These eight points are from four separate random A/B splits. There are five kinds of points in the above plots and here let's discuss the result each of them shows:
 1. **White baseB:**
@@ -43,13 +43,31 @@ Although the transfer of layers 1 and 2 shows similar performance to that of the
 5. **light Red AnB<sup>+</sup>:**
 Transferring features and then fine-tuning them results in networks that generalize better than those trained directly on the target dataset. This result suggests that even after many iterations of fine-tuning, the effects of base dataset could still linger and boost generalization performance and such improvement of performance is not due to overfitting on small target datasets or more training time.
 
-The research concluded the negative impact of 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
+### 2. Measures Generality as Transfer Performance on Dissimilar Datasets
 
+After testing on datasets for similar tasks, the researchers set up another experiment over two subsets A and B of different kinds of classes: they assigned man-made object classes and natural object classes in ImageNet to tasks A and B respectively.
+
+![Figure 3.1: Results of the experiment on dissimilar datasets](images/Figure3.1.png)
+The plot in above Figure 3.1 shows that the accuracy of a baseA and baseB network (white circles) and BnA and AnB networks (orange hexagons). The upper of the two lines contains networks baseB and AnB trained toward the target task B (natural categories), which perform better than those trained toward the task A (man-made categories). Such difference may be due to task B having less classes or simply being easier to classify.
+
+### 3. Compare to Random Weights
+![Figure 3.2: Result of combination of random filters](images/Figure3.2.png)
+Since [Jarrett et al.][Jarrett] (2009) showed that when applying a smaller network to a smaller dataset,  Caltech-101, the combination of random convolutional filters, rectification, pooling and local normalization can work almost as well as learned features, this study also tests the performance of random filters for the first n layers for various choices of n. As what is shown in figure 3.2, when testing on a larger dataset, performance falls off quickly in layers 1 and 2, and then drops to near-change levels for layers 3 and above. 
+
+![Figure 3.3: Random weight test result](images/Figure3.3.png)
+The above figure 3.3 shows the results of experiments in section 1 and 2 after subtracting the performance of their respective base cases. The comparison between the 3 lines in the plot shows that:
+
+- The transferability gap when using frozen features grows more quickly as n increases for dissimilar tasks (hexagon) than similar tasks (diamonds). 
+- Transferring even from a distant task is better than using random filters. This difference from result in [Jarret et al.][Jarrett] may be because Jarret's non-random networks were overfitting more on the smaller Caltech-101 dataset than Yosinski's on the larger ImageNet dataset, making their random filters perform better by comparison.
+
+### Conclusion 
+This paper demonstrated a method for quantifying the transferability of features from each layer of a neural network and such transferability is negatively impacted by two distinct issues: optimization difficulties related to splitting networks in the middle of fragilely co-adapted layers and the specialization of higher layer features to the original task at the expense of performance on the target task. The dominance of either of these factors depend on the location of features in the network. 
+
+Meanwhile, the transferability gap grows as the distance between tasks increases, particularly when transferring higher layers. Yet even features transferred from distant tasks are better than random weights. Finally, initializing with transferred features could still improve generalization performance after substantial fine-tuning on a new task, which could be a generally useful technique for improving deep neural network performance.
 
 
    [Paper Link]: <https://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf>
+   [Jarrett]:
+ <http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf>
 
 
