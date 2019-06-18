@@ -1,9 +1,10 @@
-# Learning the First Thing vs. The n-th Thing
+# Learning the First Thing vs. the N-th Thing
 
 Related paper: [Is Learning theNn-th Thing any Easier than Learning the First?][Paper Link] by Sebastian Thrun.
 
+It is shown that across the board, lifelong learning approaches generalize consistenly more accurately from less training data, by their ability to transfer knowledge across
 
-[Paper Link]
+[Paper Link]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMyOTM2MjhdfQ==
+eyJoaXN0b3J5IjpbMTEzNjUyNTI0OV19
 -->
