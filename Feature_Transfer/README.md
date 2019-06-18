@@ -9,7 +9,8 @@ When we are transfering features between networks trained for different tasks, w
  
 ### Measures Generality as Transfer Performance
 
-![Figure 1: Overview of the experimental treatments and controls.](images/Figure1.png =400x)
+<img src="/images/Figure1.png" width="200"/>
+Figure 1: Overview of the experimental treatments and controls.
 
 In the paper, Yosinski defines the degree of generality of a set of features learned on task A as the extent to which the features can be used for another task B. To measure this generality, the paper sets up an experiment that compares the performance of models on classification tasks A and B by constructing pairs of non-overlapping subsets of the ImageNet dataset.
 
