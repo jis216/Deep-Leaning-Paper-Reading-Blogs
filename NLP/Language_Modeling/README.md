@@ -18,7 +18,7 @@ Given this corpus, we could estimate the parameters of a language model. And we 
 1. For any 
 <img src="https://latex.codecogs.com/gif.latex?<x_1...x_n>&space;\in&space;V^&plus;,&space;p(x_1,&space;x_2,&space;...&space;x_n)&space;\geq&space;0" title="<x_1...x_n> \in V^+, p(x_1, x_2, ... x_n) \geq 0" /></a>
 
-*2. In addition,*
+2. *In addition,*
 
 <img src="https://latex.codecogs.com/gif.latex?\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" title="\sum_{<x_1...x_n> \in V^+ }p(x_1, x_2, ... x_n) = 1" /></a>
 
@@ -27,5 +27,5 @@ Given this corpus, we could estimate the parameters of a language model. And we 
 As one example of a (very bad) method for learning a language model from a training corpus, consider the following. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjgyOTQzNV19
+eyJoaXN0b3J5IjpbMTY5NzQ2OTYyNV19
 -->
