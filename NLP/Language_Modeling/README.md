@@ -22,10 +22,10 @@ Language Model:
 
 *Hence p(x_1, x_2, ... x_n) is a probability distribution over the sentences in V<sup>+</sup>*
 
-As one example of a (very bad) method for learning a language model from 
+As one example of a (very bad) method for learning a language model from a training corpus, consider the following. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk0MzEyMzMsLTcyNDM3NTk2NSwxMj
+eyJoaXN0b3J5IjpbLTE2MzI2MDg2MDcsLTcyNDM3NTk2NSwxMj
 I5ODkxODQ5LC00Njk2ODY3MjUsLTE0ODA4NTg5ODYsLTI2MTA2
 MjQ3XX0=
 -->
