@@ -17,11 +17,12 @@ Language Model:
 <img src="https://latex.codecogs.com/gif.latex?<x_1...x_n>&space;\in&space;V^&plus;,&space;p(x_1,&space;x_2,&space;...&space;x_n)&space;\geq&space;0" title="<x_1...x_n> \in V^+, p(x_1, x_2, ... x_n) \geq 0" /></a>
 
 *2. In addition,*
+
 <img src="https://latex.codecogs.com/gif.latex?\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" title="\sum_{<x_1...x_n> \in V^+ }p(x_1, x_2, ... x_n) = 1" /></a>
 
 *Hence p(x_1, x_2, ... x_n) is a probability distribution over the sentences in V<sup>+</sup>*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTk3MzAzOSwxMjI5ODkxODQ5LC00Nj
+eyJoaXN0b3J5IjpbLTcyNDM3NTk2NSwxMjI5ODkxODQ5LC00Nj
 k2ODY3MjUsLTE0ODA4NTg5ODYsLTI2MTA2MjQ3XX0=
 -->
