@@ -8,13 +8,15 @@ One main difference between human learning and neural network learning, is that 
 
 To realize such kind of knowledge transfer in the learning process of machine, the *lifelong learning framework* is created. In this framework, it is assumed that a learner faces a whole collection of learning problems over its entire lifetime. This framework is based on the belief that when facing the n-th learning task, a learner can re-use knowledge gathered in its previous n-1 learning tasks to boost the generalization accuracy.
 
-In this paper, Thrun let the learner face a family of *concept learning tasks*. More specifically, there are n concepts to be learned and these concepts are represented by n functions *&fnof;<sub>1</sub>, &fnof;<sub>2</sub>, &fnof;<sub>3</sub> &isin; F*: a pattern *x &isin; I* is member of this concept iff *f(x)* = 1. And if x is not a member, *f(x)* = 0. When learning each function, the learner will be given not only the corresponding training set X, but also the other n-1 sets of data for other concept functions. Each additional datatset *X<sub>k</sub>* is called a support set 
+In this paper, Thrun let the learner face a family of *concept learning tasks*. More specifically, there are n concepts to be learned and these concepts are represented by n functions *&fnof;<sub>1</sub>, &fnof;<sub>2</sub>, &fnof;<sub>3</sub> &isin; F*: a pattern *x &isin; I* is member of this concept iff *f(x)* = 1. And if x is not a member, *f(x)* = 0. When learning each function, the learner will be given not only the corresponding training set *X*, but also the other n-1 sets of data for other concept functions. Each additional datatset *X<sub>k</sub>* is called a support set for the training set *X*.
+
+
 
 the functions to be learned over the liftime of the learner, denoted by , are all of the type functions that defines a particular concept: a pattern *&fnof; : I &rarr;* {0, 1} and sampled from *F*. These functions are indicator functions that each defines a particular concept:  When learning the n-th indicator function 
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Mjk2OTY2NywxNzY3OTY0Nzk2LC0xMj
-UzMzgxMDU5LC0xNTA5MjI1NjI1LDE4MzQ4NTYzODldfQ==
+eyJoaXN0b3J5IjpbLTU5MTIyOTQ5LDE3Njc5NjQ3OTYsLTEyNT
+MzODEwNTksLTE1MDkyMjU2MjUsMTgzNDg1NjM4OV19
 -->
