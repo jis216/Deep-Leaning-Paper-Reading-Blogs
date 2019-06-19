@@ -1,3 +1,5 @@
+.markdown-here-wrapper{
+}
 # Learning the First Thing vs. the N-th Thing
 
 Related paper: [Is Learning the N-th Thing any Easier than Learning the First?][Thrun] by Sebastian Thrun.
@@ -11,6 +13,6 @@ In this paper, Thrun let the learner face a family of *concept learning tasks*. 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDE5Mjg1LDE3Njc5NjQ3OTYsLTEyNT
-MzODEwNTksLTE1MDkyMjU2MjUsMTgzNDg1NjM4OV19
+eyJoaXN0b3J5IjpbMTEwODQ2NTc3OSwxNzY3OTY0Nzk2LC0xMj
+UzMzgxMDU5LC0xNTA5MjI1NjI1LDE4MzQ4NTYzODldfQ==
 -->
