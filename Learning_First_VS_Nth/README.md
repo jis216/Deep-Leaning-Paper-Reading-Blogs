@@ -23,6 +23,3 @@ Memory-based algorithms memorize all training examples explicitly and interpolat
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDEzMTQ2NzZdfQ==
--->
