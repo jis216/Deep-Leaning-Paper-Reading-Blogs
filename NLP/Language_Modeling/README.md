@@ -14,9 +14,9 @@ Language Model:
 *1. For any <x<sub>1</sub>, ... x<sub>n</sub>> &isin; V<sup>+</sup>, p( x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub> ) = 1*
 
 *2. In addition,*
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" title="\sum_{<x_1...x_n> \in V^+ }p(x_1, x_2, ... x_n) = 1" /></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTg5MTg0OSwtNDY5Njg2NzI1LC0xND
-gwODU4OTg2LC0yNjEwNjI0N119
+eyJoaXN0b3J5IjpbLTEzNDQ1Nzk0NSwxMjI5ODkxODQ5LC00Nj
+k2ODY3MjUsLTE0ODA4NTg5ODYsLTI2MTA2MjQ3XX0=
 -->
