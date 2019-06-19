@@ -1,3 +1,5 @@
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" target="_blank">
+
 # Notes on Language Modeling
 **Related Resources:**
 Michael Collins: [Course Notes for COMS w4705: Language Modeling](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lm.pdf)
@@ -14,9 +16,9 @@ Language Model:
 *1. For any <x<sub>1</sub>, ... x<sub>n</sub>> &isin; V<sup>+</sup>, p( x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub> ) = 1*
 
 *2. In addition,*
-<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" title="\sum_{<x_1...x_n> \in V^+ }p(x_1, x_2, ... x_n) = 1" /></a>
+<img src="https://latex.codecogs.com/gif.latex?\sum_{<x_1...x_n>&space;\in&space;V^&plus;&space;}p(x_1,&space;x_2,&space;...&space;x_n)&space;=&space;1" title="\sum_{<x_1...x_n> \in V^+ }p(x_1, x_2, ... x_n) = 1" /></a>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ1Nzk0NSwxMjI5ODkxODQ5LC00Nj
+eyJoaXN0b3J5IjpbMTM0MDE1MjI2NywxMjI5ODkxODQ5LC00Nj
 k2ODY3MjUsLTE0ODA4NTg5ODYsLTI2MTA2MjQ3XX0=
 -->
