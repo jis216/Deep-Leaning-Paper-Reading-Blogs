@@ -10,8 +10,9 @@ Michael Collins: [Course Notes for COMS w4705: Language Modeling](http://www.cs.
 Assume that we have a vocabulary V that is the set of all words in the language. For example, we might have several years of text from the New York Times. Given this corpus, we'd like to estimate the parameters of a language model. And we assume that x<sub>n</sub> is a special symbo STOP. We'll define V<sup>+</sup>  to be the set of all sentences with the vocabulary V: this is an infinite set.
 
 Language Model:
-**Definition 1**: A language model consists of a finite set V, and a function *p(x<sub>1</sub>?)*
+**Definition 1**: A language model consists of a finite set V, and a function *p(x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub>)* such that:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjI2MDY3MSwtNDY5Njg2NzI1LC0xND
-gwODU4OTg2LC0yNjEwNjI0N119
+eyJoaXN0b3J5IjpbMTM4NjAxNDM4LC00Njk2ODY3MjUsLTE0OD
+A4NTg5ODYsLTI2MTA2MjQ3XX0=
 -->
