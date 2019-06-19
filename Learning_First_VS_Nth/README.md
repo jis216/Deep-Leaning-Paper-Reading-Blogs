@@ -15,9 +15,11 @@ The support sets usually cannot be used directly as training patterns when learn
 In this paper, Thrun compares several networks that extend the conventional memory-based neural networks with more traditional learning algorithms. Through this comparison, the research wants to demonstrate that, independent of a particular learning approach, more complex functions can be learned from less training data if learning is embedded into a lifelong context. 
 
 ## Memory-Based Learning Approaches
-Memory-based algorithms memorize all training examples explicitly and interpolate them at query-time. We will first sketch two simple, well-known approaches to memory-based learning, then propose extensions that take the support sets into a
+Memory-based algorithms memorize all training examples explicitly and interpolate them at query-time. In the paper, it demonstrates three memory-based algorithms and 
+
+
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjM1NjczOV19
+eyJoaXN0b3J5IjpbNjQ2MjYwNTU0XX0=
 -->
