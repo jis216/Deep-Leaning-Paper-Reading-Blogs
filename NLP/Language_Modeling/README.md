@@ -22,7 +22,10 @@ Language Model:
 
 *Hence p(x_1, x_2, ... x_n) is a probability distribution over the sentences in V<sup>+</sup>*
 
+As one example of a (very bad) method for learning a language
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDM3NTk2NSwxMjI5ODkxODQ5LC00Nj
-k2ODY3MjUsLTE0ODA4NTg5ODYsLTI2MTA2MjQ3XX0=
+eyJoaXN0b3J5IjpbOTA5MDIzODcwLC03MjQzNzU5NjUsMTIyOT
+g5MTg0OSwtNDY5Njg2NzI1LC0xNDgwODU4OTg2LC0yNjEwNjI0
+N119
 -->
