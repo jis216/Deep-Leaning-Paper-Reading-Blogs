@@ -9,7 +9,7 @@ Michael Collins: [Course Notes for COMS w4705: Language Modeling](http://www.cs.
 - 
 
 ## What is Language Modeling?
-A language model is defined as follows. First, assume that we have a vocabulary V, which is the set of all words in the language. A *sentence* in the language is a sequence of words *x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub>*, where the number of words n ≥ 1, we have.
+A language model is defined as follows. First, assume that we have a vocabulary V, which is the set of all words in the language. A *sentence* in the language is a sequence of words *x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub>*, where  *x<sub>n</sub> &isin; V*, and we assume that x<sub>n</sub> is a special symbol, STOP.
 
 Given this corpus, we could estimate the parameters of a language model. And we assume that x<sub>n</sub> is a special symbol STOP. We'll define V<sup>+</sup>  to be the set of all sentences with the vocabulary V: this is an infinite set.
 
@@ -26,8 +26,8 @@ Given this corpus, we could estimate the parameters of a language model. And we 
 As one example of a (very bad) method for learning a language model from a training corpus, consider the following. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk4MTYzNTgsLTU5MjM1NzM4MCwtMT
-k5OTc1NDQ5NywtMTYzMjYwODYwNywtNzI0Mzc1OTY1LDEyMjk4
-OTE4NDksLTQ2OTY4NjcyNSwtMTQ4MDg1ODk4NiwtMjYxMDYyND
-ddfQ==
+eyJoaXN0b3J5IjpbLTI3NjY5NDU4NCwtNTkyMzU3MzgwLC0xOT
+k5NzU0NDk3LC0xNjMyNjA4NjA3LC03MjQzNzU5NjUsMTIyOTg5
+MTg0OSwtNDY5Njg2NzI1LC0xNDgwODU4OTg2LC0yNjEwNjI0N1
+19
 -->
