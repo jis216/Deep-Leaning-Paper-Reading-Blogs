@@ -25,9 +25,3 @@ Given this corpus, we could estimate the parameters of a language model. And we 
 
 As one example of a (very bad) method for learning a language model from a training corpus, consider the following. 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjY5NDU4NCwtNTkyMzU3MzgwLC0xOT
-k5NzU0NDk3LC0xNjMyNjA4NjA3LC03MjQzNzU5NjUsMTIyOTg5
-MTg0OSwtNDY5Njg2NzI1LC0xNDgwODU4OTg2LC0yNjEwNjI0N1
-19
--->
