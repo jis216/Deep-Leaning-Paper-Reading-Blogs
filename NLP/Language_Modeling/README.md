@@ -11,8 +11,12 @@ Assume that we have a vocabulary V that is the set of all words in the language.
 
 Language Model:
 **Definition 1**: A language model consists of a finite set V, and a function *p(x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub>)* such that:
-*1. For any <x<sub>1</sub>, ... x<sub>n</sub>> &isin; V<sup>+</sup>, p(x<sup>1</sup>, x<sup>2</sup>, ... x<sup>n</sup>)*
+*1. For any <x<sub>1</sub>, ... x<sub>n</sub>> &isin; V<sup>+</sup>, p( x<sub>1</sub>, x<sub>2</sub>, ... x<sub>n</sub> ) = 1*
+
+*2. In addition,*
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg3ODgwNTAsLTQ2OTY4NjcyNSwtMT
-Q4MDg1ODk4NiwtMjYxMDYyNDddfQ==
+eyJoaXN0b3J5IjpbMTIyOTg5MTg0OSwtNDY5Njg2NzI1LC0xND
+gwODU4OTg2LC0yNjEwNjI0N119
 -->
