@@ -9,9 +9,9 @@ Michael Collins: [Course Notes for COMS w4705: Language Modeling](http://www.cs.
 ## What is Language Modeling?
 Assume that we have a vocabulary V that is the set of all words in the language. For example, we might have several years of text from the New York Times, or we might we have a very large amount of text from the web. Given this corpus, we'd like to estimate the parameters of a language model. 
 
-A
+And we assume that x<sub>n</sub> is a special symbo STOP.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Nzg3NTMyMSwtMTQ4MDg1ODk4NiwtMj
-YxMDYyNDddfQ==
+eyJoaXN0b3J5IjpbMzQ4NTE5Njg1LC0xNDgwODU4OTg2LC0yNj
+EwNjI0N119
 -->
