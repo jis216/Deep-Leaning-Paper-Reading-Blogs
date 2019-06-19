@@ -10,12 +10,12 @@ To realize such kind of knowledge transfer in the learning process of machine, t
 
 In this paper, Thrun let the learner face a family of *concept learning tasks*. More specifically, there are n concepts to be learned and these concepts are represented by n functions *&fnof;<sub>1</sub>, &fnof;<sub>2</sub>, &fnof;<sub>3</sub> &isin; F*: a pattern *x &isin; I* is member of this concept iff *f(x)* = 1. And if x is not a member, *f(x)* = 0. When learning each function, the learner will be given not only the corresponding training set *X*, but also the other n-1 sets of data for other concept functions. Each additional datatset *X<sub>k</sub>* is called a support set for the training set *X*.
 
-The support sets usually cannot be used directly as training patterns when learning a new concept, since they describe concepts different fro.
+The support sets usually cannot be used directly as training patterns when learning a new concept, since they describe concepts different from the one to be learned. However, certain features 
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg3NzE4OTEsLTU5MTIyOTQ5LDE3Nj
-c5NjQ3OTYsLTEyNTMzODEwNTksLTE1MDkyMjU2MjUsMTgzNDg1
-NjM4OV19
+eyJoaXN0b3J5IjpbLTc5MDAxOTYyNSwtNTkxMjI5NDksMTc2Nz
+k2NDc5NiwtMTI1MzM4MTA1OSwtMTUwOTIyNTYyNSwxODM0ODU2
+Mzg5XX0=
 -->
