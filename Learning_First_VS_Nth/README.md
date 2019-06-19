@@ -12,12 +12,12 @@ In this paper, Thrun let the learner face a family of *concept learning tasks*. 
 
 The support sets usually cannot be used directly as training patterns when learning a new concept, since they describe concepts different from the one to be learned. However, some invariant features of the domain could be learned and transferred to new learning tasks and hence improve generalization.
 
-In this paper, Thrun introduces several networks that extend the conventional memory-based or neural network algorithms. 
+In this paper, Thrun introduces several networks that extend the conventional memory-based or neural network algorithms. The goal of this research is to demonstrate that, independent of a particular learning approach, more complex functions can be learned from less training data if learning is embedded into a lifelong context. 
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU0OTYyMzIsLTc1OTY0NTA4NiwtNT
-kxMjI5NDksMTc2Nzk2NDc5NiwtMTI1MzM4MTA1OSwtMTUwOTIy
-NTYyNSwxODM0ODU2Mzg5XX0=
+eyJoaXN0b3J5IjpbNjc5MjIwNjU5LC0xNjY1NDk2MjMyLC03NT
+k2NDUwODYsLTU5MTIyOTQ5LDE3Njc5NjQ3OTYsLTEyNTMzODEw
+NTksLTE1MDkyMjU2MjUsMTgzNDg1NjM4OV19
 -->
