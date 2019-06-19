@@ -18,11 +18,11 @@ In this paper, Thrun compares several networks that extend the conventional memo
 Memory-based algorithms memorize all training examples explicitly and interpolate them at query-time. In the paper, it demonstrates three well-known learning algorithms and turned them into memory-based ones.
 
 ### Nearest Neighbor and Shepard's Method
-*K-nearest neighbor* (KNN) is one of the most widely used memory-based learning algorithm. 
+*K-nearest neighbor* (KNN) is one of the most widely used memory-based learning algorithm. It finds the nearest pattern in the training examples X to the input pattern according to certain distance metric, e.g., the Euclidian distance. 
 
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTI3MjUzOV19
+eyJoaXN0b3J5IjpbLTEzNDEzMTQ2NzZdfQ==
 -->
