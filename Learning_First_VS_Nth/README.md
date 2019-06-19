@@ -12,12 +12,12 @@ In this paper, Thrun let the learner face a family of *concept learning tasks*. 
 
 The support sets usually cannot be used directly as training patterns when learning a new concept, since they describe concepts different from the one to be learned. However, some invariant features of the domain could be learned and transferred to new learning tasks and hence improve generalization.
 
- 
+In this paper, Thrun introduces se verall network that extend the conventional memory 
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTY0NTA4NiwtNTkxMjI5NDksMTc2Nz
-k2NDc5NiwtMTI1MzM4MTA1OSwtMTUwOTIyNTYyNSwxODM0ODU2
-Mzg5XX0=
+eyJoaXN0b3J5IjpbLTU2NTE3MDA0NywtNzU5NjQ1MDg2LC01OT
+EyMjk0OSwxNzY3OTY0Nzk2LC0xMjUzMzgxMDU5LC0xNTA5MjI1
+NjI1LDE4MzQ4NTYzODldfQ==
 -->
