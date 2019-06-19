@@ -6,11 +6,11 @@ One main difference between human learning and neural network learning, is that 
 
 To realize such kind of knowledge transfer in the learning process of machine, the *lifelong learning framework* is created. In this framework, it is assumed that a learner faces a whole collection of learning problems over its entire lifetime. This framework is based on the belief that when facing the n-th learning task, a learner can re-use knowledge gathered in its previous n-1 learning tasks to boost the generalization accuracy.
 
-In this paper, Thrun let the learner face a family of *concept learning tasks*. More specifically, the functions to be learned over the liftime of the learner, denoted by <sub>f</>
+In this paper, Thrun let the learner face a family of *concept learning tasks*. More specifically, the functions to be learned over the liftime of the learner, denoted by * &f<sub>1</sub>, f<sub>1</sub>*
 
 
 [Thrun]: <https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf](https://papers.nips.cc/paper/1034-is-learning-the-n-th-thing-any-easier-than-learning-the-first.pdf)>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTM0MjMxMiwtMTUwOTIyNTYyNSwxOD
+eyJoaXN0b3J5IjpbLTE4MTQ2MjY1MSwtMTUwOTIyNTYyNSwxOD
 M0ODU2Mzg5XX0=
 -->
